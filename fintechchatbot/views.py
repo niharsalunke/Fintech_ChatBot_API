@@ -75,9 +75,11 @@ def chatbot_api(request):
     return HttpResponse('Invalid Request')
 
 
-
-def chatbotapi(request):
-    return HttpResponse(' Andar to AA Gaye, Bahar kaise Jaoge ? ')
-
 def index(request):
-    return HttpResponse('HEllo world')
+    return HttpResponse('''To Use the Chatbot API, post requests in the following format:
+
+    	{user_message: "Your Message Here ex: Hi "}
+
+    	Post The Request on /chatbotapi
+
+    	''')
