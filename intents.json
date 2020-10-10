@@ -1,0 +1,128 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+		
+        "Hello",
+        "Good day",
+		 "Good Morning",
+		  "Good Evening",
+		  "Wassup",
+		  "Hey There"
+      ],
+      "responses": [
+        "Hey ",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","Ok See ya","seeya"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","ty","tysm","tyvm"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "investments",
+      "patterns": [
+        "show my investments",
+        "investments",
+        "i want to see my investments",
+		  "where did i invest",
+		  "investments",
+		  "all my investments",
+		  "where did my investments go" 
+      ],
+      "responses": [
+        "Here are your Investments:",
+        "You have invested pretty well, here are some of them: "
+      ]
+    },
+    {
+      "tag": "transactions",
+      "patterns": [
+        "show my transactions",
+        "can i see my transactions",
+        "some of my transactions",
+        "are there any transactions done",
+		 "show the history of my transactions",
+		  "show me my payments",
+		  "where did i spend",
+		  "show my spendings",
+		  "spendings",
+		  "transactions",
+		  "show all my transactions"
+      ],
+      "responses": [
+        "Here is your Transaction History: ",
+        "In the past you have spent on these items: "
+      ]
+    },
+    {
+      "tag": "profitloss",
+      "patterns": [
+        "show me my net profit",
+        "show me my net loss",
+        "where did i incur loss",
+		  "show me my profit",
+		  "show me some of my losses",
+		  "profit and loss",
+		  "profit",
+		  "loss",
+		  "show me the profit and loss",
+		  "show total profit and loss",
+		  "total profit and loss",
+		  "total profit",
+		  "total loss"
+      ],
+      "responses": [
+        "here is your P&L Statement: " ,
+        "here are some of the P&L Statements: "
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+	  {
+		  "tag":"buybits",
+		  "patterns":[
+			  "buy bitpoints",
+			  "bitpoints",
+			  "need more bitpoints",
+			  "need some bitpoints",
+			  "add bitpoints",
+			  "bitpoints",
+			  "where can i buy some bitpoints"
+		  		],
+		  "responses":[
+			  "BitPoints is a bitcurrency of Alphabots which you can use in order to pay your bills: Here can buy some bitpoints by clocking on this LINK "
+		  ]
+		  
+	  }
+  ]
+}
